@@ -1,0 +1,34 @@
+extends layout/_layout
+
+block content
+	#main
+		include blocks/_header
+		.page-inner
+			.main-container
+				.personal-office
+					.personal-office__aside
+						ul.p-office-list
+							li.p-office-list__item
+								a(href="").p-office-list__link.p-office-list__link--active КАБИНЕТ
+							li.p-office-list__item
+								a(href="").p-office-list__link адреса
+							li.p-office-list__item
+								a(href="").p-office-list__link ПАРОЛЬ
+							li.p-office-list__item
+								a(href="").p-office-list__link ЗАКАЗЫ
+					.col.personal-office__cont
+						ul.pr-info
+							li.pr-info__item
+								.pr-info__label Фамилия и имя
+								.pr-info__name Петя Петров
+							li.pr-info__item
+								.pr-info__label E-mail
+								.pr-info__name mail@gmail.com
+							li.pr-info__item
+								.pr-info__label Контактный телефон
+								.pr-info__name 8 800 555 35 35
+							li.pr-info__item
+								.pr-info__label Сумма заказов
+								.pr-info__price 3 500
+									span.rub  ₽
+						a(href="").btn-r.btn-r--green.btn-r--large-df.btn-r--full изменить

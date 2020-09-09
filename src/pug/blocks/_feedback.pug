@@ -1,0 +1,21 @@
+.feedback
+  .main-container
+    .feedback__cont
+      h2.main-title
+        span.main-title__stroke форма
+        |  обратной связи
+      p.feedback__info-text
+        i.icon-quote
+        | Перезвоним в течение 5 минут, нажимая на кнопку
+        |  вы соглашаетесь с
+        a(href="") политикой обработки персональных
+        |  данных.
+      .feedback__form
+        .feedback__form-row
+          input(type="text" placeholder="Имя").feedback__form-input
+        .feedback__form-row
+          input(type="tel" placeholder="Телефон").feedback__form-input
+        .feedback__form-row
+          textarea(placeholder="Комментарий, если есть").feedback__form-textarea
+        a(href="").btn-r.btn-r--green.feedback__form-submit Отправить заявку
+          i.icon-arrow-right-top-45

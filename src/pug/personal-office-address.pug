@@ -1,0 +1,66 @@
+extends layout/_layout
+
+block content
+	#main
+		include blocks/_header
+		.page-inner
+			.main-container
+				.personal-office
+					.personal-office__aside
+						ul.p-office-list
+							li.p-office-list__item
+								a(href="").p-office-list__link.p-office-list__link--active КАБИНЕТ
+							li.p-office-list__item
+								a(href="").p-office-list__link адреса
+							li.p-office-list__item
+								a(href="").p-office-list__link ПАРОЛЬ
+							li.p-office-list__item
+								a(href="").p-office-list__link ЗАКАЗЫ
+						.po-btn-w
+							a(href="").po-btn-w__link ВЫЙТИ
+					.col.personal-office__cont
+						label.switch
+							.switch__text Основной адрес
+							.switch__cont
+								input(type="checkbox").switch__input
+								.switch__inner
+						.po-address
+							.add-address
+								.add-address__row
+									.add-address__item.add-address__item--large
+										.form-row
+											.form-row__label Город
+											input(type="text" value="Краснодар" placeholder="Ваш город").form-row__input
+									.add-address__item.add-address__item--large
+										.form-row
+											.form-row__label Улица
+											input(type="text" value="Гагарина" placeholder="Ваша улица").form-row__input
+									.add-address__item
+										.form-row
+											.form-row__label Дом
+											input(type="text" value="30" placeholder="Ваш дом").form-row__input
+									.add-address__item
+										.form-row
+											.form-row__label Подъезд
+											input(type="text" value="1" placeholder="Ваш подъезд").form-row__input
+									.add-address__item
+										.form-row
+											.form-row__label Этаж
+											input(type="text" value="6" placeholder="Ваш этаж").form-row__input
+									.add-address__item
+										.form-row
+											.form-row__label Квартира
+											input(type="text" value="21" placeholder="Ваша квартира").form-row__input
+									.add-address__item.add-address__item--intercom
+										.form-row
+											.form-row__label Домофон (если есть)
+											input(type="text" value="*170#" placeholder="Ваш домофон").form-row__input
+									.add-address__item.add-address__item--full
+										.form-row
+											.form-row__label Комментарий
+											textarea.form-row__textarea(placeholder="Ваш комментарий")
+									.add-address__item.add-address__item--full
+										.add-address__btn-group
+											a(href="").btn-r.btn-r--black.btn-r--large-df.add-address__btn-back назад
+											.col
+												input(type="button" value="добавить адрес").btn-r.btn-r--green.btn-r--large-df.btn-r--full

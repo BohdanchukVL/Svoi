@@ -1,0 +1,80 @@
+.btn-r {
+  border: 2px solid;
+  font-size: 22px;
+  font-family: $fontTTInterfacesMono;
+  font-weight: bold;
+  line-height: 1;
+  padding: 17px 21px;
+  background: transparent;
+  transition: 0.3s color ease, 0.3s background-color ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+
+  &--gold {
+    border-color: #BEA05A;
+    color: #BEA05A;
+    
+    &:hover {
+      background: #BEA05A;
+      color: #fff;
+    }
+  }
+
+  &--green {
+    border-color: $colorGreen;
+    color: $colorGreen;
+
+    &:hover {
+      background: $colorGreen;
+      color: #fff;
+    }
+  }
+
+
+  &--black {
+    border-color: #2A2A2A;
+    color: #2A2A2A;;
+
+    &:hover {
+      background: #2A2A2A;;
+      color: #fff;
+    }
+  }
+
+  &--large-df {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+
+  &--full {
+    width: 100%;
+  }
+}
+
+@media(max-width: 1550px) {
+  .btn-r {
+    font-size: 16px;
+    padding: 13px 14px;
+
+    &--large-df {
+      height: 60px;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .btn-r {
+    &--large-df {
+      height: 50px;
+      padding: 0 10px;
+      font-size: 14px;
+    }
+  }
+}

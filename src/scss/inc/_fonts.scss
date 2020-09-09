@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'TTOctosquares';
+  src: url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Light.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Light.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTOctosquares';
+  src: url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Regular.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Regular.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTOctosquares';
+  src: url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Bold.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Bold.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTOctosquares';
+  src: url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-XBold.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-XBold.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-XBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTOctosquares';
+  src: url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Black.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Black.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-octosquares/TTOctosquares-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+// TT Interfaces
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Regular.eot');
+  src: local('TT Interfaces Regular'), local('TTInterfaces-Regular'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Regular.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Regular.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Medium.eot');
+  src: local('TT Interfaces Medium'), local('TTInterfaces-Medium'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Medium.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Medium.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Bold.eot');
+  src: local('TT Interfaces Bold'), local('TTInterfaces-Bold'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Bold.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Bold.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-interfaces/TTInterfaces-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+// Montserrat
+@font-face {
+  font-family: 'Montserrat';
+  src: url('#{$rootUrlFonts}montserrat/Montserrat-Thin.woff2') format('woff2'),
+  url('#{$rootUrlFonts}montserrat/Montserrat-Thin.woff') format('woff'),
+  url('#{$rootUrlFonts}montserrat/Montserrat-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('#{$rootUrlFonts}montserrat/Montserrat-Regular.woff2') format('woff2'),
+  url('#{$rootUrlFonts}montserrat/Montserrat-Regular.woff') format('woff'),
+  url('#{$rootUrlFonts}montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('#{$rootUrlFonts}montserrat/Montserrat-Medium.woff2') format('woff2'),
+  url('#{$rootUrlFonts}montserrat/Montserrat-Medium.woff') format('woff'),
+  url('#{$rootUrlFonts}montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('#{$rootUrlFonts}montserrat/Montserrat-Bold.woff2') format('woff2'),
+  url('#{$rootUrlFonts}montserrat/Montserrat-Bold.woff') format('woff'),
+  url('#{$rootUrlFonts}montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+// TT Interfaces Mono
+@font-face {
+  font-family: 'TT Interfaces Mono';
+  src: url('#{$rootUrlFonts}tt-interfaces-mono/TTInterfacesMono-Bold.woff2') format('woff2'),
+  url('#{$rootUrlFonts}tt-interfaces-mono/TTInterfacesMono-Bold.woff') format('woff'),
+  url('#{$rootUrlFonts}tt-interfaces-mono/TTInterfacesMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Proxima Nova
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$rootUrlFonts}ProximaNova/ProximaNova-Regular.eot');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Regular.woff') format('woff'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$rootUrlFonts}ProximaNova/ProximaNova-Semibold.eot');
+  src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Semibold.woff') format('woff'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$rootUrlFonts}ProximaNova/ProximaNova-Bold.eot');
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Bold.woff') format('woff'),
+  url('#{$rootUrlFonts}ProximaNova/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

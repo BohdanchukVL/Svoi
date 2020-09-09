@@ -1,0 +1,69 @@
+extends layout/_layout
+
+block content
+	#main
+		include blocks/_header
+		.page-inner
+			.main-container
+				.personal-office
+					.personal-office__aside
+						ul.p-office-list
+							li.p-office-list__item
+								a(href="").p-office-list__link.p-office-list__link--active КАБИНЕТ
+							li.p-office-list__item
+								a(href="").p-office-list__link адреса
+							li.p-office-list__item
+								a(href="").p-office-list__link ПАРОЛЬ
+							li.p-office-list__item
+								a(href="").p-office-list__link ЗАКАЗЫ
+						.po-btn-w
+							a(href="").po-btn-w__link ВЫЙТИ
+					.col.personal-office__cont
+						ul.po-address-list
+							li.po-address-list__item.po-address-list__item--active
+								.po-address-list__col
+									.po-address-list__label Город
+									.po-address-list__name Краснодар
+								.po-address-list__col
+									.po-address-list__label Улица
+									.po-address-list__name Гагарина
+								.po-address-list__col
+									.po-address-list__label Дом
+									.po-address-list__name 30
+								.po-address-list__col
+									.po-address-list__label Подъезд
+									.po-address-list__name 1
+								.po-address-list__col
+									.po-address-list__label Этаж
+									.po-address-list__name 6
+								.po-address-list__col
+									.po-address-list__label Квартира
+									.po-address-list__name 21
+								a(href="#remove").po-address-list__remove.modal-btn
+									i.icon-close
+								a(href="#add-address").po-address-list__edit.modal-btn
+									i.icon-pen
+							li.po-address-list__item
+								.po-address-list__col
+									.po-address-list__label Город
+									.po-address-list__name Краснодар
+								.po-address-list__col
+									.po-address-list__label Улица
+									.po-address-list__name Гагарина
+								.po-address-list__col
+									.po-address-list__label Дом
+									.po-address-list__name 30
+								.po-address-list__col
+									.po-address-list__label Подъезд
+									.po-address-list__name 1
+								.po-address-list__col
+									.po-address-list__label Этаж
+									.po-address-list__name 6
+								.po-address-list__col
+									.po-address-list__label Квартира
+									.po-address-list__name 21
+								a(href="#remove").po-address-list__remove.modal-btn
+									i.icon-close
+								a(href="#add-address").po-address-list__edit.modal-btn
+									i.icon-pen
+						a(href="").btn-r.btn-r--green.btn-r--large-df.btn-r--full добавить адрес

@@ -1,0 +1,34 @@
+.main-container
+	ul.breadcrumbs.breadcrumbs--b-lr
+		li.breadcrumbs__item
+			a(href="").breadcrumbs__link Главная
+		li.breadcrumbs__item.breadcrumbs__item--distribution
+			i.icon-broken-line
+		li.breadcrumbs__item Новости
+	.filters
+		h1.main-title Новости
+		.filters__cont
+			.filters__search.filters__search--active
+				input(type="text" placeholder="введите например: молоко" value="молоко").filters__search-input
+				a(href="").filters__search-submit
+					i.icon-key
+				a(href="").filters__search-remove
+					i.icon-close
+			.filters__theme
+				.filters__theme-text ВЫБЕРИТЕ тему
+					i.icon-arrow-down
+				.filters__theme-drop
+					ul.filters__theme-list
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link.filters__theme-list-link--active Тема 1
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link Тема 2
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link Тема 3
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link Тема 4
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link Тема 5
+	.news-empty
+		.news-empty__cont увы, ничего
+			span не найдено

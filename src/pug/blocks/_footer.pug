@@ -1,0 +1,47 @@
+.footer
+  .main-container.footer__row
+    .footer__info
+      .footer__info-cont
+        a(href="").footer__logo
+        p.footer__lang 2020
+      p.footer__info-time Каждый день с 10 до 21
+      a(href="tel:+7 861 207 07 96").footer__info-phone +7 861 207 07 96
+      p.footer__info-email Эл. почта создателя
+        br
+        |  "От Своих" Артема Боровца:
+      a(href="mailto:a.borovets@kluchmilk.ru").footer__info-link a.borovets@kluchmilk.ru
+    .footer__col
+      ul.footer__list.footer__list--bold
+        each list in ['АКЦИИ','ДОСТАВКА','БЕЗОПАСНОСТЬ','НОВОСТИ','СВОИ','ПОДПИСКА']
+          li.footer__list-item
+            a(href="").footer__list-link=list
+    .footer__col
+      ul.footer__list
+        each list in ['НАБОРЫ','Молочная продукция','БАКАЛЕЯ','сыры','Говядина']
+          li.footer__list-item
+            a(href="").footer__list-link=list
+    .footer__col
+      ul.footer__list
+        each list in ['ЗАМОРОЗКА','Овощи','Хлебобулочные изделия','Птица и яйцо']
+          li.footer__list-item
+            a(href="").footer__list-link=list
+    .footer__col.footer__col--large
+      ul.footer__list-g
+        each g_list in ['Реквизиты','Политика конфиденциальности','Оферта','ОГРН','ИП','ЕГРЮЛ']
+          li.footer__list-g-item
+            a(href="").footer__list-g-link=g_list
+    .footer__socials-w
+      ul.footer__socials
+        li.footer__socials-item
+          a(href="").footer__socials-link
+            i.icon-vk
+        li.footer__socials-item
+          a(href="").footer__socials-link
+            i.icon-in
+        li.footer__socials-item
+          a(href="").footer__socials-link
+            i.icon-fb
+        li.footer__socials-item
+          a(href="").footer__socials-link
+            i.icon-zen
+      a(href="").footer__socials-w-link design by milendorf

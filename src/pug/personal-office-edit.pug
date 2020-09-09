@@ -1,0 +1,39 @@
+extends layout/_layout
+
+block content
+	#main
+		include blocks/_header
+		.page-inner
+			.main-container
+				.personal-office
+					.personal-office__aside
+						ul.p-office-list
+							li.p-office-list__item
+								a(href="").p-office-list__link.p-office-list__link--active КАБИНЕТ
+							li.p-office-list__item
+								a(href="").p-office-list__link адреса
+							li.p-office-list__item
+								a(href="").p-office-list__link ПАРОЛЬ
+							li.p-office-list__item
+								a(href="").p-office-list__link ЗАКАЗЫ
+						.po-btn-w
+							a(href="").po-btn-w__link ВЫЙТИ
+					.col.personal-office__cont
+						ul.pr-edit
+							li.pr-edit__item
+								.form-row
+									.form-row__label Имя
+									input(type="text" value="Петя").form-row__input
+							li.pr-edit__item
+								.form-row
+									.form-row__label Фамилия
+									input(type="text" value="Петров").form-row__input
+							li.pr-edit__item
+								.form-row
+									.form-row__label E-mail
+									input(type="email" value="mail@gmail.com").form-row__input
+							li.pr-edit__item
+								.form-row
+									.form-row__label Телефон
+									input(type="tel" value="9 929 100 74 76").form-row__input.phone-mask
+						a(href="").btn-r.btn-r--green.btn-r--large-df.btn-r--full сохранить

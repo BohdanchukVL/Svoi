@@ -1,0 +1,40 @@
+extends layout/_layout
+
+block content
+	#main
+		include blocks/_header
+		.page-inner
+			.main-container
+				.personal-office
+					.personal-office__aside
+						ul.p-office-list
+							li.p-office-list__item
+								a(href="").p-office-list__link.p-office-list__link--active КАБИНЕТ
+							li.p-office-list__item
+								a(href="").p-office-list__link адреса
+							li.p-office-list__item
+								a(href="").p-office-list__link ПАРОЛЬ
+							li.p-office-list__item
+								a(href="").p-office-list__link ЗАКАЗЫ
+						.po-btn-w
+							a(href="").po-btn-w__link ВЫЙТИ
+					.col.personal-office__cont
+						ul.po-orders-list
+							li.po-orders-list__item
+								.po-orders-list__order
+									.po-orders-list__order-num Заказ №3441
+									a(href="#order").po-orders-list__order-btn.modal-btn
+										i.icon-key
+								.po-orders-list__info
+									.po-orders-list__price 3 990
+										span.rub  ₽
+									a(href="").btn-r.btn-r--green Повторить
+							li.po-orders-list__item
+								.po-orders-list__order
+									.po-orders-list__order-num Заказ №3441
+									a(href="#order").po-orders-list__order-btn.modal-btn
+										i.icon-key
+								.po-orders-list__info
+									.po-orders-list__price 3 990
+										span.rub  ₽
+									a(href="").btn-r.btn-r--green Повторить

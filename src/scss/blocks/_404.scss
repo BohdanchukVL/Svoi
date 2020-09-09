@@ -1,0 +1,71 @@
+.error-page {
+  width: 980px;
+  padding: 80px 15px 40px;
+  margin: auto;
+  text-align: center;
+
+  &__title {
+    font-family: $fontTTOctosquares;
+    font-weight: 900;
+    font-size: 288px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #2A2A2A;
+  }
+
+  p {
+    font-family: $fontTTInterfacesMono;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #2A2A2A;
+    margin: 9px 0 0;
+
+    a {
+      color: #00C882;
+      
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .btn-r {
+    margin-top: 160px;
+  }
+}
+
+@media(max-width: 1280px) {
+  .error-page {
+    width: 760px;
+
+    &__title {
+      font-size: 224px;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 5px 0 0;
+    }
+
+    .btn-r {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .error-page {
+    width: 100%;
+    padding: 80px 15px 40px;
+
+    &__title {
+      font-size: 117px;
+    }
+
+    .btn-r {
+      margin-top: 60px;
+    }
+  }
+}

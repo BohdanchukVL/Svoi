@@ -1,0 +1,387 @@
+.co-founder {
+  border: 1px solid #000;
+  margin: 13px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__logo-col {
+    width: 499px;
+    border-right: 1px solid #000;
+  }
+
+  &__logo-w {
+    height: 359px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__logo {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: 279px;
+  }
+
+  &__title-w {
+    min-height: 387px;
+    padding: 18px 13px;
+  }
+
+  &__title {
+    font-family: $fontTTInterfacesMono;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0.95;
+    text-transform: uppercase;
+    color: #2A2A2A;
+  }
+
+  &__cont {
+    width: 538px;
+    border-right: 1px solid #000;
+    padding: 15px 15px;
+
+    h3 {
+      font-family: $fontMontserrat;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 1.4;
+      color: #2A2A2A;
+      margin: 0 0 21px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 1.6;
+      color: #2A2A2A;
+      margin: 0 0 36px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  &__info {
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+      position: absolute;
+      top: 10px;
+      right: -22px;
+      display: block;
+      content: '';
+      background: url("#{$rootUrl}co-founder.svg") no-repeat center;
+      background-size: cover;
+      width: 642px;
+      height: 807px;
+    }
+
+    &-img {
+      display: block;
+      position: absolute;
+      z-index: 10;
+      top: 20px;
+      right: 95px;
+      width: 358px;
+    }
+
+    &-cont {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      padding: 30px 36px 20px;
+      z-index: 30;
+      background: #00C882;
+      min-height: 176px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &-title {
+      font-weight: 900;
+      font-size: 64px;
+      line-height: 0.95;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: $fontTTOctosquares;
+
+      span {
+        display: block;
+        -webkit-text-fill-color: #00C882;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
+      }
+    }
+
+    &-text {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 1.4;
+      color: #FFFFFF;
+      margin: 33px 0 0 50px;
+      
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
+@media(max-width: 1550px) {
+  .co-founder {
+    margin-top: -4px;
+
+    &__logo-col {
+      width: 374px;
+    }
+
+    &__logo {
+      width: 208px;
+    }
+
+    &__logo-w {
+      height: 269px;
+    }
+
+    &__title-w {
+      padding: 15px 11px;
+      min-height: 291px;
+    }
+
+    &__title {
+      font-size: 27px;
+    }
+
+    &__cont {
+      width: 404px;
+      padding: 12px;
+
+      h3 {
+        font-size: 18px;
+        margin: 0 0 16px;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &__info {
+      &:before {
+        width: 482px;
+        height: 605px;
+        top: 7px;
+        right: -16px;
+      }
+
+      &-img {
+        width: 269px;
+        top: 16px;
+        right: 71px;
+      }
+
+      &-title {
+        font-size: 48px;
+      }
+
+      &-cont {
+        min-height: 132px;
+        padding: 23px 28px 0;
+      }
+      
+      &-text {
+        font-size: 13px;
+        margin: 24px 0 0 37px;
+      }
+    }
+  }
+}
+
+@media(max-width: 1280px) {
+  .co-founder {
+    &__logo-col,
+    &__cont {
+      width: 50%;
+    }
+
+    &__cont {
+      border-right: 0;
+    }
+
+    &__info {
+      width: 100%;
+      min-width: 100%;
+      height: 460px;
+      border-top: 1px solid #000;
+
+      &:before {
+        width: auto;
+        left: 136px;
+        background-repeat: repeat;
+        background-position: top left;
+        background-size: unset;
+      }
+
+      &-img {
+        right: auto;
+        left: 50%;
+        margin-left: -135px;
+      }
+    }
+
+    &__title-w {
+      min-height: 200px;
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  .co-founder {
+    margin-top: 21px;
+
+    &__logo-w {
+      height: 259px;
+    }
+
+    &__title-w {
+      padding: 30px 11px;
+      min-height: 189px;
+    }
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__cont {
+      padding: 15px;
+
+      h3 {
+        font-size: 16px;
+        margin: 0 0 23px;
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 23px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &__info {
+      &:before {
+        top: 9px;
+        left: 135px;
+      }
+
+      &-cont {
+        min-height: 121px;
+        padding: 14px 10px 0;
+      }
+
+      &-text {
+        margin: 25px 0 0 85px;
+      }
+    }
+  }
+}
+
+@media(max-width: 568px) {
+  .co-founder {
+    margin-top: 20px;
+
+    &__logo-col ,
+    &__cont {
+      width: 100%;
+    }
+
+    &__logo-col {
+      border-right: 0;
+    }
+
+    &__logo-w {
+      height: 286px;
+    }
+
+    &__logo {
+      width: 213px;
+    }
+
+    &__title-w {
+      border-bottom: 1px solid #000;
+      padding: 17px 12px 11px;
+      min-height: 124px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__cont {
+      padding: 15px 13px;
+      padding-bottom: 12px;
+
+      h3 {
+        margin: 0 0 13px;
+      }
+
+      p {
+        font-size: 12px;
+        margin-bottom: 21px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &__info {
+      height: 445px;
+
+      &:before {
+        top: 6px;
+        left: 8px;
+      }
+
+      &-img {
+        width: 253px;
+        margin-left: -126px;
+        top: 34px;
+      }
+      
+      &-cont {
+        display: block;
+        padding: 19px 12px 0;
+      }
+
+      &-title {
+        width: 100%;
+        font-size: 32px;
+      }
+
+      &-text {
+        margin: 13px 0 0;
+        width: 100%;
+        font-size: 12px;
+
+        span {
+          display: inline;
+        }
+      }
+    }
+  }
+}

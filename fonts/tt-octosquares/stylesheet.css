@@ -1,0 +1,720 @@
+@font-face {
+    font-family: 'TTOctosquares-DBold';
+    src: url('TTOctosquares-DBold.woff2') format('woff2'),
+        url('TTOctosquares-DBold.woff') format('woff'),
+        url('TTOctosquares-DBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-XBoldIt';
+    src: url('TTOctosquaresCond-XBoldIt.woff2') format('woff2'),
+        url('TTOctosquaresCond-XBoldIt.woff') format('woff'),
+        url('TTOctosquaresCond-XBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-DBoldIt';
+    src: url('TTOctosquares-DBoldIt.woff2') format('woff2'),
+        url('TTOctosquares-DBoldIt.woff') format('woff'),
+        url('TTOctosquares-DBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-XLight';
+    src: url('TTOctosquaresCond-XLight.woff2') format('woff2'),
+        url('TTOctosquaresCond-XLight.woff') format('woff'),
+        url('TTOctosquaresCond-XLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('TTOctosquares-Black.woff2') format('woff2'),
+        url('TTOctosquares-Black.woff') format('woff'),
+        url('TTOctosquares-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('TTOctosquares-Bold.woff2') format('woff2'),
+        url('TTOctosquares-Bold.woff') format('woff'),
+        url('TTOctosquares-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-XBold';
+    src: url('TTOctosquaresCond-XBold.woff2') format('woff2'),
+        url('TTOctosquaresCond-XBold.woff') format('woff'),
+        url('TTOctosquaresCond-XBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp';
+    src: url('TTOctosquaresComp-Black.woff2') format('woff2'),
+        url('TTOctosquaresComp-Black.woff') format('woff'),
+        url('TTOctosquaresComp-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-BoldIt';
+    src: url('TTOctosquares-BoldIt.woff2') format('woff2'),
+        url('TTOctosquares-BoldIt.woff') format('woff'),
+        url('TTOctosquares-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-ThinIt';
+    src: url('TTOctosquaresCond-ThinIt.woff2') format('woff2'),
+        url('TTOctosquaresCond-ThinIt.woff') format('woff'),
+        url('TTOctosquaresCond-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-XLightIt';
+    src: url('TTOctosquaresCond-XLightIt.woff2') format('woff2'),
+        url('TTOctosquaresCond-XLightIt.woff') format('woff'),
+        url('TTOctosquaresCond-XLightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-BlackIt';
+    src: url('TTOctosquares-BlackIt.woff2') format('woff2'),
+        url('TTOctosquares-BlackIt.woff') format('woff'),
+        url('TTOctosquares-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp';
+    src: url('TTOctosquaresExp-Black.woff2') format('woff2'),
+        url('TTOctosquaresExp-Black.woff') format('woff'),
+        url('TTOctosquaresExp-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond';
+    src: url('TTOctosquaresCond-Light.woff2') format('woff2'),
+    url('TTOctosquaresCond-Light.woff') format('woff'),
+    url('TTOctosquaresCond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-BoldIt';
+    src: url('TTOctosquaresCond-BoldIt.woff2') format('woff2'),
+    url('TTOctosquaresCond-BoldIt.woff') format('woff'),
+    url('TTOctosquaresCond-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-BlackIt';
+    src: url('TTOctosquaresComp-BlackIt.woff2') format('woff2'),
+    url('TTOctosquaresComp-BlackIt.woff') format('woff'),
+    url('TTOctosquaresComp-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp';
+    src: url('TTOctosquaresComp-Regular.woff2') format('woff2'),
+    url('TTOctosquaresComp-Regular.woff') format('woff'),
+    url('TTOctosquaresComp-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp';
+    src: url('TTOctosquaresComp-Italic.woff2') format('woff2'),
+    url('TTOctosquaresComp-Italic.woff') format('woff'),
+    url('TTOctosquaresComp-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-XBold';
+    src: url('TTOctosquaresComp-XBold.woff2') format('woff2'),
+    url('TTOctosquaresComp-XBold.woff') format('woff'),
+    url('TTOctosquaresComp-XBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond';
+    src: url('TTOctosquaresCond-Black.woff2') format('woff2'),
+    url('TTOctosquaresCond-Black.woff') format('woff'),
+    url('TTOctosquaresCond-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-MediumIt';
+    src: url('TTOctosquaresCond-MediumIt.woff2') format('woff2'),
+    url('TTOctosquaresCond-MediumIt.woff') format('woff'),
+    url('TTOctosquaresCond-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-ThinIt';
+    src: url('TTOctosquaresComp-ThinIt.woff2') format('woff2'),
+    url('TTOctosquaresComp-ThinIt.woff') format('woff'),
+    url('TTOctosquaresComp-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond';
+    src: url('TTOctosquaresCond-Bold.woff2') format('woff2'),
+    url('TTOctosquaresCond-Bold.woff') format('woff'),
+    url('TTOctosquaresCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond';
+    src: url('TTOctosquaresCond-Regular.woff2') format('woff2'),
+    url('TTOctosquaresCond-Regular.woff') format('woff'),
+    url('TTOctosquaresCond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-XLightIt';
+    src: url('TTOctosquaresComp-XLightIt.woff2') format('woff2'),
+    url('TTOctosquaresComp-XLightIt.woff') format('woff'),
+    url('TTOctosquaresComp-XLightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-DBold';
+    src: url('TTOctosquaresCond-DBold.woff2') format('woff2'),
+    url('TTOctosquaresCond-DBold.woff') format('woff'),
+    url('TTOctosquaresCond-DBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp';
+    src: url('TTOctosquaresComp-Thin.woff2') format('woff2'),
+    url('TTOctosquaresComp-Thin.woff') format('woff'),
+    url('TTOctosquaresComp-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-DBoldIt';
+    src: url('TTOctosquaresCond-DBoldIt.woff2') format('woff2'),
+    url('TTOctosquaresCond-DBoldIt.woff') format('woff'),
+    url('TTOctosquaresCond-DBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-LightIt';
+    src: url('TTOctosquaresCond-LightIt.woff2') format('woff2'),
+    url('TTOctosquaresCond-LightIt.woff') format('woff'),
+    url('TTOctosquaresCond-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp';
+    src: url('TTOctosquaresComp-Medium.woff2') format('woff2'),
+    url('TTOctosquaresComp-Medium.woff') format('woff'),
+    url('TTOctosquaresComp-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-LightIt';
+    src: url('TTOctosquaresComp-LightIt.woff2') format('woff2'),
+    url('TTOctosquaresComp-LightIt.woff') format('woff'),
+    url('TTOctosquaresComp-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond';
+    src: url('TTOctosquaresCond-Italic.woff2') format('woff2'),
+    url('TTOctosquaresCond-Italic.woff') format('woff'),
+    url('TTOctosquaresCond-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp';
+    src: url('TTOctosquaresComp-Bold.woff2') format('woff2'),
+    url('TTOctosquaresComp-Bold.woff') format('woff'),
+    url('TTOctosquaresComp-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-BoldIt';
+    src: url('TTOctosquaresComp-BoldIt.woff2') format('woff2'),
+    url('TTOctosquaresComp-BoldIt.woff') format('woff'),
+    url('TTOctosquaresComp-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond';
+    src: url('TTOctosquaresCond-Medium.woff2') format('woff2'),
+    url('TTOctosquaresCond-Medium.woff') format('woff'),
+    url('TTOctosquaresCond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond-BlackIt';
+    src: url('TTOctosquaresCond-BlackIt.woff2') format('woff2'),
+    url('TTOctosquaresCond-BlackIt.woff') format('woff'),
+    url('TTOctosquaresCond-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-XLight';
+    src: url('TTOctosquaresComp-XLight.woff2') format('woff2'),
+    url('TTOctosquaresComp-XLight.woff') format('woff'),
+    url('TTOctosquaresComp-XLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresCond';
+    src: url('TTOctosquaresCond-Thin.woff2') format('woff2'),
+    url('TTOctosquaresCond-Thin.woff') format('woff'),
+    url('TTOctosquaresCond-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp';
+    src: url('TTOctosquaresComp-Light.woff2') format('woff2'),
+    url('TTOctosquaresComp-Light.woff') format('woff'),
+    url('TTOctosquaresComp-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-XBoldIt';
+    src: url('TTOctosquaresComp-XBoldIt.woff2') format('woff2'),
+    url('TTOctosquaresComp-XBoldIt.woff') format('woff'),
+    url('TTOctosquaresComp-XBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-DBoldIt';
+    src: url('TTOctosquaresComp-DBoldIt.woff2') format('woff2'),
+    url('TTOctosquaresComp-DBoldIt.woff') format('woff'),
+    url('TTOctosquaresComp-DBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-MediumIt';
+    src: url('TTOctosquaresComp-MediumIt.woff2') format('woff2'),
+    url('TTOctosquaresComp-MediumIt.woff') format('woff'),
+    url('TTOctosquaresComp-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresComp-DBold';
+    src: url('TTOctosquaresComp-DBold.woff2') format('woff2'),
+    url('TTOctosquaresComp-DBold.woff') format('woff'),
+    url('TTOctosquaresComp-DBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-XLight';
+    src: url('TTOctosquares-XLight.woff2') format('woff2'),
+    url('TTOctosquares-XLight.woff') format('woff'),
+    url('TTOctosquares-XLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-LightIt';
+    src: url('TTOctosquaresExp-LightIt.woff2') format('woff2'),
+    url('TTOctosquaresExp-LightIt.woff') format('woff'),
+    url('TTOctosquaresExp-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp';
+    src: url('TTOctosquaresExp-Light.woff2') format('woff2'),
+    url('TTOctosquaresExp-Light.woff') format('woff'),
+    url('TTOctosquaresExp-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-XBoldIt';
+    src: url('TTOctosquares-XBoldIt.woff2') format('woff2'),
+    url('TTOctosquares-XBoldIt.woff') format('woff'),
+    url('TTOctosquares-XBoldIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('TTOctosquares-Light.woff2') format('woff2'),
+    url('TTOctosquares-Light.woff') format('woff'),
+    url('TTOctosquares-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-MediumIt';
+    src: url('TTOctosquares-MediumIt.woff2') format('woff2'),
+    url('TTOctosquares-MediumIt.woff') format('woff'),
+    url('TTOctosquares-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-BlackIt';
+    src: url('TTOctosquaresExp-BlackIt.woff2') format('woff2'),
+    url('TTOctosquaresExp-BlackIt.woff') format('woff'),
+    url('TTOctosquaresExp-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-ThinIt';
+    src: url('TTOctosquares-ThinIt.woff2') format('woff2'),
+    url('TTOctosquares-ThinIt.woff') format('woff'),
+    url('TTOctosquares-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp';
+    src: url('TTOctosquaresExp-Medium.woff2') format('woff2'),
+    url('TTOctosquaresExp-Medium.woff') format('woff'),
+    url('TTOctosquaresExp-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-XLight';
+    src: url('TTOctosquaresExp-XLight.woff2') format('woff2'),
+    url('TTOctosquaresExp-XLight.woff') format('woff'),
+    url('TTOctosquaresExp-XLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-XLightIt';
+    src: url('TTOctosquaresExp-XLightIt.woff2') format('woff2'),
+    url('TTOctosquaresExp-XLightIt.woff') format('woff'),
+    url('TTOctosquaresExp-XLightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('TTOctosquares-Regular.woff2') format('woff2'),
+    url('TTOctosquares-Regular.woff') format('woff'),
+    url('TTOctosquares-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-DBold';
+    src: url('TTOctosquaresExp-DBold.woff2') format('woff2'),
+    url('TTOctosquaresExp-DBold.woff') format('woff'),
+    url('TTOctosquaresExp-DBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-XLightIt';
+    src: url('TTOctosquares-XLightIt.woff2') format('woff2'),
+    url('TTOctosquares-XLightIt.woff') format('woff'),
+    url('TTOctosquares-XLightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp';
+    src: url('TTOctosquaresExp-Italic.woff2') format('woff2'),
+    url('TTOctosquaresExp-Italic.woff') format('woff'),
+    url('TTOctosquaresExp-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-XBold';
+    src: url('TTOctosquaresExp-XBold.woff2') format('woff2'),
+    url('TTOctosquaresExp-XBold.woff') format('woff'),
+    url('TTOctosquaresExp-XBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('TTOctosquares-Medium.woff2') format('woff2'),
+    url('TTOctosquares-Medium.woff') format('woff'),
+    url('TTOctosquares-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp';
+    src: url('TTOctosquaresExp-Regular.woff2') format('woff2'),
+    url('TTOctosquaresExp-Regular.woff') format('woff'),
+    url('TTOctosquaresExp-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-XBoldIt';
+    src: url('TTOctosquaresExp-XBoldIt.woff2') format('woff2'),
+    url('TTOctosquaresExp-XBoldIt.woff') format('woff'),
+    url('TTOctosquaresExp-XBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp';
+    src: url('TTOctosquaresExp-Thin.woff2') format('woff2'),
+    url('TTOctosquaresExp-Thin.woff') format('woff'),
+    url('TTOctosquaresExp-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-ThinIt';
+    src: url('TTOctosquaresExp-ThinIt.woff2') format('woff2'),
+    url('TTOctosquaresExp-ThinIt.woff') format('woff'),
+    url('TTOctosquaresExp-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-BoldIt';
+    src: url('TTOctosquaresExp-BoldIt.woff2') format('woff2'),
+    url('TTOctosquaresExp-BoldIt.woff') format('woff'),
+    url('TTOctosquaresExp-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-MediumIt';
+    src: url('TTOctosquaresExp-MediumIt.woff2') format('woff2'),
+    url('TTOctosquaresExp-MediumIt.woff') format('woff'),
+    url('TTOctosquaresExp-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-LightIt';
+    src: url('TTOctosquares-LightIt.woff2') format('woff2'),
+    url('TTOctosquares-LightIt.woff') format('woff'),
+    url('TTOctosquares-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp';
+    src: url('TTOctosquaresExp-Bold.woff2') format('woff2'),
+    url('TTOctosquaresExp-Bold.woff') format('woff'),
+    url('TTOctosquaresExp-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('TTOctosquares-Italic.woff2') format('woff2'),
+    url('TTOctosquares-Italic.woff') format('woff'),
+    url('TTOctosquares-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares-XBold';
+    src: url('TTOctosquares-XBold.woff2') format('woff2'),
+    url('TTOctosquares-XBold.woff') format('woff'),
+    url('TTOctosquares-XBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('TTOctosquares-Thin.woff2') format('woff2'),
+    url('TTOctosquares-Thin.woff') format('woff'),
+    url('TTOctosquares-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTOctosquaresExp-DBoldIt';
+    src: url('TTOctosquaresExp-DBoldIt.woff2') format('woff2'),
+    url('TTOctosquaresExp-DBoldIt.woff') format('woff'),
+    url('TTOctosquaresExp-DBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

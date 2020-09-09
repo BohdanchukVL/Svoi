@@ -1,0 +1,177 @@
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  line-height: 160%;
+  font-weight: bold;
+}
+
+h1, .h1 {
+
+}
+
+h2, .h2 {
+  font-size: 36px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+h4, .h4 {
+
+}
+
+h5, .h5 {
+
+}
+
+h6, .h6 {
+
+}
+
+.main-title {
+  font-size: 72px;
+  line-height: 1.05;
+  font-weight: 900;
+  font-family: $fontTTOctosquares;
+  color: #2a2a2a;
+  text-transform: uppercase;
+
+  &__stroke {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #2a2a2a;
+  }
+  
+  &__block {
+    display: block;
+  }
+}
+
+.category-title {
+
+}
+
+.link-to {
+  font-family: $fontsTTInterfaces;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #2A2A2A;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  transition: 0.3s color ease;
+
+  .icon-broken-line {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 8px 14px 0 0;
+  }
+
+  &:hover {
+    color: $colorGreen;
+  }
+}
+
+.text-quote {
+  margin: 0 0 33px;
+  color: #2A2A2A;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.more-products {
+  background: #00C882;
+  border: 1px solid #2A2A2A;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 7px auto 0;
+  width: 1278px;
+  max-width: 100%;
+  height: 71px;
+  color: #FFFFFF;
+  font-family: $fontTTInterfacesMono;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 110%;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 7px;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 10;
+  transition: 0.3s all ease;
+
+  &:hover {
+    background: #05b577;
+  }
+}
+
+@media(max-width: 1550px) {
+  .main-title {
+    font-size: 54px;
+  }
+
+  .link-to {
+    font-size: 13.5px;
+
+    .icon-broken-line {
+      font-size: 10px;
+      margin: 6px 9px 0 0;
+    }
+  }
+}
+
+@media(max-width: 1280px)  {
+  .main-title {
+    font-size: 36px;
+  }
+
+  .more-products {
+    height: 50px;
+    font-size: 17px;
+    padding-top: 5px;
+  }
+}
+
+@media(max-width: 992px) {
+  //h2, .h2 {
+  //  font-size: 36px;
+  //}
+  //
+  //h3, .h3 {
+  //  font-size: 24px;
+  //}
+
+  .text-quote {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 650px) {
+  .more-products {
+    display: none;
+  }
+
+  h2, .h2 {
+    font-size: 18px;
+  }
+
+  h3, .h3 {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 568px)  {
+  .main-title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,114 @@
+.main-container
+	ul.breadcrumbs.breadcrumbs--b-lr
+		li.breadcrumbs__item
+			a(href="").breadcrumbs__link Главная
+		li.breadcrumbs__item.breadcrumbs__item--distribution
+			i.icon-broken-line
+		li.breadcrumbs__item Новости
+	.filters
+		h1.main-title Новости
+		.filters__cont
+			.filters__search.filters__search--active
+				input(type="text" placeholder="введите например: молоко" value="молоко").filters__search-input
+				a(href="").filters__search-submit
+					i.icon-key
+				a(href="").filters__search-remove
+					i.icon-close
+			.filters__theme
+				.filters__theme-text ВЫБЕРИТЕ тему
+					i.icon-arrow-down
+				.filters__theme-drop
+					ul.filters__theme-list
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link.filters__theme-list-link--active Тема 1
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link Тема 2
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link Тема 3
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link Тема 4
+						li.filters__theme-list-item
+							a(href="").filters__theme-list-link Тема 5
+	.news.news--inner
+		.news__row
+			.news__col.news__col--lg
+				.news__item
+					a(href="").news__inner.news__inner--large
+						.news__img(style="background-image: url(img/pic-8.jpg);")
+						.news__cont
+							h3 Изоляция
+								span  В изоляции
+							p Текст с описанием статьи и дающий представление о ней
+			.col.news__col
+				.news__item
+					a(href="").news__inner
+						.news__img(style="background-image: url(img/pic-9.jpg);")
+						.news__cont
+							h3 Суровый
+								span  фермерский
+								span  бассейн
+							p Текст с описанием статьи и дающий представление о ней
+				.news__item
+					a(href="").news__inner
+						.news__img(style="background-image: url(img/pic-10.jpg);")
+						.news__cont
+							h3 Планы
+								span  по коровнику
+								span  в 2020 году
+							p Текст с описанием статьи и дающий представление о ней
+			.col.news__col
+				.news__item
+					a(href="").news__inner
+						.news__img(style="background-image: url(img/pic-11.jpg);")
+						.news__cont
+							h3 Сельхоз-
+								span  апокалипсис
+							p Текст с описанием статьи и дающий представление о ней
+				.news__item
+					a(href="").news__inner
+						.news__img(style="background-image: url(img/pic-12.jpg);")
+						.news__cont
+							h3 Неестественный
+								span  отбор
+							p Текст с описанием статьи и дающий представление о ней
+			.col.news__col
+				.news__item
+					a(href="").news__inner
+						.news__img(style="background-image: url(img/pic-9.jpg);")
+						.news__cont
+							h3 Суровый
+								span  фермерский
+								span  бассейн
+							p Текст с описанием статьи и дающий представление о ней
+				.news__item
+					a(href="").news__inner
+						.news__img(style="background-image: url(img/pic-10.jpg);")
+						.news__cont
+							h3 Планы
+								span  по коровнику
+								span  в 2020 году
+							p Текст с описанием статьи и дающий представление о ней
+			.col.news__col
+				.news__item
+					a(href="").news__inner
+						.news__img(style="background-image: url(img/pic-11.jpg);")
+						.news__cont
+							h3 Сельхоз-
+								span  апокалипсис
+							p Текст с описанием статьи и дающий представление о ней
+				.news__item
+					a(href="").news__inner
+						.news__img(style="background-image: url(img/pic-12.jpg);")
+						.news__cont
+							h3 Неестественный
+								span  отбор
+							p Текст с описанием статьи и дающий представление о ней
+			.news__col.news__col--lg
+				.news__item
+					a(href="").news__inner.news__inner--large
+						.news__img(style="background-image: url(img/pic-8.jpg);")
+						.news__cont
+							h3 Изоляция
+								span  В изоляции
+							p Текст с описанием статьи и дающий представление о ней
+		include ../blocks/_pagination

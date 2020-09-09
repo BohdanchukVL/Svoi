@@ -1,0 +1,73 @@
+extends layout/_layout
+
+block content
+	#main
+		include blocks/_header
+		.page-inner.page-inner--subscription
+			include page/_subscription-inner
+			.benefits.benefits--subs
+				.main-container
+					.benefits__welcome
+						h2.main-title
+							span.main-title__stroke Делаем всё,
+							|  чтобы защитить наших покупателей
+						p.benefits__welcome-text
+							i.icon-quote
+							| Наши поставщики — только небольшие и технологичные фермерские хозяйства в Краснодарском крае. Мы лично посещаем каждое хозяйство и проводим тщательный отбор, который проходит только один поставщик из трех. И регулярно проверяем соответствие требованиям ГОСТ и Ветуправления. А также обеспечиваем максимально безопасную доставку.
+						p.benefits__welcome-text Например, инновационная молочная ферма полного цикла
+							b  «Ключевское».
+			.suppliers.main-container
+				.suppliers-slider-w
+					.suppliers-slider
+						.suppliers-slider__item
+							.suppliers-slider__inner
+								.col.suppliers-slider__img-w
+									a(href="//www.youtube.com/embed/6v2L2UGZJAM?version=3" style="background-image:url('img/pic-7.jpg')" data-rel="lightcase" ).suppliers-slider__img-inner
+										span.suppliers-slider__play
+								.suppliers-slider__text
+									.suppliers-slider__title «Ключевское»
+									.suppliers-slider__text-cont
+										p Инновационная молочная ферма полного цикла
+						.suppliers-slider__item
+							.suppliers-slider__inner
+								.col.suppliers-slider__img-w
+									a(href="img/pic-7.jpg" style="background-image:url('img/pic-7.jpg')" data-rel="lightcase").suppliers-slider__img-inner
+								.suppliers-slider__text
+									.suppliers-slider__title «Ключевское»
+									.suppliers-slider__text-cont
+										p Инновационная молочная ферма полного цикла
+					.suppliers-slider__control
+						.col-auto.mr-auto
+							.suppliers-slider__arrows
+								.suppliers-slider__arrows-item.suppliers-slider__arrows-item--prev
+									i.icon-arrow-left
+								.suppliers-slider__arrows-item.suppliers-slider__arrows-item--next
+									i.icon-arrow-right
+						.col.suppliers-slider__progress
+							.suppliers-slider__progress-inner
+								.suppliers-slider__number
+									span.suppliers-slider__number-current
+									| /
+									span.suppliers-slider__number-total
+							.suppliers-slider__number
+								span.suppliers-slider__number-current
+								| /
+								span.suppliers-slider__number-total
+			.main-container
+				.sb-contactless
+					img(src="img/sb/sb.png" alt="").sb-contactless__img
+					.sb-contactless__cont
+						.main-title
+							span.main-title__stroke Бесконтактно
+								span.main-title__block доставляем
+							span.main-title__block  по Краснодару
+							span.main-title__block  и Горячему Ключу
+						.sb-contactless__text
+							i.icon-quote
+							p Курьер в маске и перчатках привезет ваш набор в продезинфицированном холодильнике (холодильники дезинфицируем перед каждым рейсом), поставит его на поверхность и отойдет на несколько метров.
+							p Все продукты еще на стерильных производствах герметично упаковываются в вакуумную тару или пластик. Больше продукты не переупаковываются — в таком же виде доставляются курьером до двери.
+			include blocks/_comments
+			include blocks/_feedback
+			include blocks/_footer
+
+

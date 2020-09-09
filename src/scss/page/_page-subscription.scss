@@ -1,0 +1,62 @@
+.page-inner {
+  &--subscription {
+    .benefits {
+      padding: 115px 0 0;
+
+      &__welcome {
+        min-height: 575px;
+      }
+    }
+
+    .suppliers {
+      margin-top: 35px;
+    }
+
+    .suppliers-slider-w {
+      margin-top: 0;
+    }
+  }
+}
+
+@media(max-width: 1550px) {
+  .page-inner {
+    &--subscription {
+      .benefits {
+        padding: 100px 0 0;
+
+        &__welcome {
+          min-height: 440px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  .page-inner {
+    &--subscription {
+      .benefits {
+        padding: 35px 0 0;
+
+        &__welcome {
+          min-height: 367px;
+        }
+      }
+
+      .suppliers {
+        margin-top: -74px;
+      }
+    }
+  }
+}
+
+@media(max-width: 568px) {
+  .page-inner {
+    &--subscription {
+      .comments {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+

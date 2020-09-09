@@ -1,0 +1,398 @@
+.basket {
+
+}
+
+.basket-status {
+  display: block;
+  position: fixed;
+  z-index: 500;
+  bottom: 99px;
+  right: 0;
+  width: 120px;
+  background: #BEA05A;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: $fontTTInterfacesMono;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+
+  &:hover {
+    background: #1B355E;
+
+    .basket-status__cont {
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  &__cont {
+    border: 1px solid #2A2A2A;
+    height: 118px;
+    text-align: center;
+    padding: 23px 0 0;
+    transition: 0.3s border ease;
+
+    .icon-basket-2 {
+      font-size: 30px;
+    }
+
+    &-num {
+      display: block;
+    }
+  }
+
+  &__price {
+    border: 1px solid #2A2A2A;
+    border-top: 0;
+    height: 82px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      margin-left: 5px;
+    }
+  }
+}
+
+.basket-table {
+  border-top: 1px solid #000;
+  margin: 20px 0 0;
+
+  &__tr {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    border-top: 0;
+
+    &--total {
+      padding: 17px 25px;
+    }
+  }
+
+  &__total-name {
+    font-family: $fontProximaNova;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2A2A2A;
+    margin: 0;
+  }
+
+  &__total-price {
+    font-family: $fontProximaNova;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2A2A2A;
+    margin: 0;
+
+    .rub {
+      font-size: 90%;
+      font-family: $fontsTTInterfaces;
+    }
+  }
+
+  &__item {
+    width: 50%;
+    border-left: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+
+    &:first-child {
+      border-left: 0;
+    }
+
+    &--price {
+      padding: 8px 9px;
+    }
+  }
+
+  &__remove-w {
+    width: 48px;
+    position: relative;
+  }
+
+  &__remove {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height: 30px;
+    border: 1px solid #EB0000;
+    font-size: 16px;
+    color: #EB0000;
+    text-decoration: none;
+    transition: 0.3s all ease;
+
+    &:hover {
+      color: #fff;
+      background: #EB0000;
+    }
+  }
+  
+  &__img-w {
+    text-decoration: none;
+    display: block;
+    background: #fff;
+    border: 1px solid #000;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 9px;
+  }
+
+  &__img {
+    width: 90px;
+    display: block;
+  }
+
+  &__cont {
+    padding: 10px;
+  }
+
+  &__name {
+    font-family: $fontTTOctosquares;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 95%;
+    color: #1C355E;
+    margin: 0 0 6px;
+  }
+
+  &__size {
+    margin: 0;
+    font-family: $fontProximaNova;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 140%;
+    color: #2A2A2A;
+  }
+
+  &__label {
+    color: #2A2A2A;
+    opacity: 0.5;
+    font-family: $fontProximaNova;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  &__price {
+    margin-top: 20px;
+    margin-left: auto;
+    font-family: $fontProximaNova;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    color: #2A2A2A;
+
+    .rub {
+      font-size: 90%;
+      font-family: $fontsTTInterfaces;
+    }
+  }
+
+  @media(min-width: 1556px) {
+    .spinner {
+      &__btn {
+        width: 66px;
+        height: 66px;
+        font-size: 40px;
+      }
+
+      &__num {
+        height: 66px;
+        line-height: 66px;
+        min-width: 66px;
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+.basket-btn-g {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto 0;
+  max-width: 830px;
+
+  &__item {
+    width: 50%;
+    padding: 0 15px;
+  }
+  
+  &__btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 78px;
+    font-weight: bold;
+    font-family: $fontTTInterfacesMono;
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: uppercase;
+    transition: 0.3s all ease;
+    
+    span {
+      display: block;
+    }
+
+    &--continue {
+      border: 2px solid #1C355E;
+      color: #1C355E;
+
+      &:hover {
+        color: #fff;
+        background: #1C355E;
+      }
+    }
+    
+    &--submit {
+      color: #fff;
+      background: #01C887;
+
+      &:hover {
+        background: #06ab75;
+      }
+    }
+
+    &--min-sum {
+      color: #EB0000;
+      border: 2px solid #EB0000;
+    }
+  }
+}
+
+@media(max-width: 1550px) {
+  .basket-status {
+    font-size: 20px;
+    bottom: 50px;
+    width: 90px;
+
+    &__cont {
+      height: 89px;
+      padding: 18px 0 0;
+
+      .icon-basket-2 {
+        font-size: 22px;
+      }
+    }
+
+    &__price {
+      height: 62px;
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  .basket-table {
+    &__tr {
+      margin-bottom: 15px;
+
+      &:not(:first-child) {
+        border-top: 1px solid #000;
+      }
+    }
+
+    &__item {
+      width: 100%;
+      border-left: 0;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid #000;
+      }
+
+      &--price {
+        align-items: center;
+      }
+    }
+
+    &__price {
+      font-size: 26px;
+      margin-top: 0;
+    }
+  }
+
+  .basket-btn-g {
+    margin-top: 15px;
+
+    &__item {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    &__btn {
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      height: 60px;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .basket-status {
+    font-size: 14px;
+    bottom: 30px;
+    width: 70px;
+
+    &__cont {
+      height: 50px;
+      padding: 10px 0 0;
+
+      .icon-basket-2 {
+        font-size: 12px;
+      }
+    }
+
+    &__price {
+      height: 40px;
+    }
+  }
+}
+
+@media(max-width: 568px) {
+  .basket-table {
+    &__name {
+      font-size: 18px;
+    }
+
+    &__img-w {
+      padding: 4px;
+    }
+
+    &__img {
+      width: 60px;
+    }
+  }
+
+  .basket-btn-g {
+    &__item {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &__btn {
+      height: 50px;
+      max-width: 280px;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'TT Interfaces Mono';
+    src: url('TTInterfacesMono-Bold.woff2') format('woff2'),
+        url('TTInterfacesMono-Bold.woff') format('woff'),
+        url('TTInterfacesMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

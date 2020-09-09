@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$rootUrlFonts}icomoon/icomoon.eot?4p0dwm');
+  src:  url('#{$rootUrlFonts}icomoon/icomoon.eot?4p0dwm#iefix') format('embedded-opentype'),
+  url('#{$rootUrlFonts}icomoon/icomoon.ttf?4p0dwm') format('truetype'),
+  url('#{$rootUrlFonts}icomoon/icomoon.woff?4p0dwm') format('woff'),
+  url('#{$rootUrlFonts}icomoon/icomoon.svg?4p0dwm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-arrow-down:before {
+  content: "\e900";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-left-bottom-45:before {
+  content: "\e902";
+}
+.icon-arrow-left-top-45:before {
+  content: "\e903";
+}
+.icon-arrow-right:before {
+  content: "\e904";
+}
+.icon-arrow-right-bottom-45:before {
+  content: "\e905";
+}
+.icon-arrow-right-top-45:before {
+  content: "\e906";
+}
+.icon-arrow-up:before {
+  content: "\e907";
+}
+.icon-basket:before {
+  content: "\e908";
+}
+.icon-basket-2:before {
+  content: "\e909";
+}
+.icon-beef:before {
+  content: "\e90a";
+}
+.icon-bread:before {
+  content: "\e90b";
+}
+.icon-broken-line:before {
+  content: "\e90c";
+}
+.icon-caret:before {
+  content: "\e90d";
+}
+.icon-caret-b:before {
+  content: "\e90e";
+}
+.icon-check:before {
+  content: "\e90f";
+}
+.icon-checkout:before {
+  content: "\e910";
+}
+.icon-cheese:before {
+  content: "\e911";
+}
+.icon-chicken .path1:before {
+  content: "\e912";
+  color: rgb(0, 0, 0);
+}
+.icon-chicken .path2:before {
+  content: "\e913";
+  margin-left: -1.9677734375em;
+  color: rgb(0, 0, 0);
+}
+.icon-chicken .path3:before {
+  content: "\e914";
+  margin-left: -1.9677734375em;
+  color: rgb(255, 255, 255);
+}
+.icon-chicken .path4:before {
+  content: "\e915";
+  margin-left: -1.9677734375em;
+  color: rgb(0, 0, 0);
+}
+.icon-close:before {
+  content: "\e916";
+}
+.icon-fb:before {
+  content: "\e917";
+}
+.icon-fire:before {
+  content: "\e918";
+}
+.icon-freezing:before {
+  content: "\e919";
+}
+.icon-grocery:before {
+  content: "\e91a";
+}
+.icon-home-delivery:before {
+  content: "\e91b";
+}
+.icon-in:before {
+  content: "\e91c";
+}
+.icon-key:before {
+  content: "\e91d";
+}
+.icon-location:before {
+  content: "\e91e";
+}
+.icon-milk:before {
+  content: "\e91f";
+}
+.icon-pen:before {
+  content: "\e920";
+}
+.icon-phone:before {
+  content: "\e921";
+}
+.icon-quote:before {
+  content: "\e922";
+}
+.icon-sets:before {
+  content: "\e923";
+}
+.icon-shield:before {
+  content: "\e924";
+}
+.icon-supermarket:before {
+  content: "\e925";
+}
+.icon-vegetables:before {
+  content: "\e926";
+}
+.icon-vk:before {
+  content: "\e927";
+}
+.icon-zen:before {
+  content: "\e928";
+}

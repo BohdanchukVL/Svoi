@@ -1,0 +1,46 @@
+extends layout/_layout
+
+block content
+	#main
+		include blocks/_header
+		.page-inner
+			.main-container
+				br
+				br
+				a(href="#basket-modal-min").btn-r.btn-r--green.modal-btn Корина минимальная сума
+				br
+				br
+				a(href="#ordering-address-done").btn-r.btn-r--green.modal-btn Модал , Оформления заказа - адресс добавлен
+				br
+				br
+				a(href="#promo-cod-error").btn-r.btn-r--green.modal-btn Промокод ошибка
+				br
+				br
+				a(href="#login").btn-r.btn-r--green.modal-btn Вход , регистрация
+				br
+				br
+				a(href="#login-email").btn-r.btn-r--green.modal-btn Вход , email
+				br
+				br
+				a(href="#login-code").btn-r.btn-r--green.modal-btn Вход , код
+				br
+				br
+				a(href="#login-code-error").btn-r.btn-r--green.modal-btn Вход , код, ошибка, повторно
+				br
+				br
+				a(href="#login-finish").btn-r.btn-r--green.modal-btn завершение регистрации
+				br
+				br
+				a(href="#done").btn-r.btn-r--green.modal-btn Done
+				br
+				br
+				br
+				a(href="#remove").btn-r.btn-r--green.modal-btn Удалить Адресс
+				br
+				br
+				a(href="#order").btn-r.btn-r--green.modal-btn Заказ
+				br
+				br
+			include blocks/_footer
+
+

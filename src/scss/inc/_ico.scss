@@ -1,0 +1,75 @@
+.ico {
+  display: inline-block;
+  vertical-align: top;
+  fill: $colorDark;
+
+  &--sets {
+    width: 47px;
+    height: 55px;
+  }
+
+  &--milk {
+    width: 43px;
+    height: 59px;
+  }
+
+  &--cheese {
+    width: 52px;
+    height: 41px;
+  }
+
+  &--chicken {
+    width: 66px;
+    height: 33px;
+  }
+
+  &--beef {
+    width: 64px;
+    height: 29px;
+  }
+
+  &--vegetables {
+    width: 60px;
+    height: 51px;
+  }
+
+  &--grocery {
+    width: 69px;
+    height: 44px;
+  }
+
+  &--bread {
+    width: 89px;
+    height: 31px;
+  }
+
+  &--freezing {
+    width: 51px;
+    height: 51px;
+  }
+
+  &--angle-l {
+    width: 19px;
+    height: 56px;
+  }
+
+  &--supermarket {
+    width: 129px;
+    height: 116px;
+  }
+
+  &--calendar {
+    width: 115px;
+    height: 114px;
+  }
+
+  &--shield {
+    width: 97px;
+    height: 108px;
+  }
+
+  &--home-delivery {
+    width: 96px;
+    height: 108px;
+  }
+}
