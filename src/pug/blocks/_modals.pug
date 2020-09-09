@@ -908,8 +908,8 @@
               input(type="text" value="Петя").form-row__input
           .ordering__form-item
             .form-row
-              label.form-row__label Фамилия
-              input(type="text" value="Петров").form-row__input
+              label.form-row__label Телефон
+              input(type="text" value="050505050").form-row__input
           .ordering__form-item
             .form-row
               label.form-row__label E-mail
@@ -924,6 +924,12 @@
             .form-row
               label.form-row__label Улица, Дом, Квартира
               input(type="text" value="Крым наш").form-row__input
+          .ordering__form-item.ordering__form-item--full
+            .form-row
+              label.form-row__label Время доставки
+              select.select-styler
+                option с 10:00 до 17:00 - бесплатно от 1500 руб.
+                option с 17:00 до 21:00 - 200 руб.
         .payment-method
           p.ordering__info-text Способ оплаты
           .payment-method__list
