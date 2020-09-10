@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $('#modal-product .modal__inner').on('click', function(e) {
-        if (e.target !== this)
+    $('#modal-product').on('click', '.modal__inner', function(e) {
+        if (e.target !== this) 
             return;
-         
+        
         $('#modal-product').removeClass('modal--active');
         $('body').removeClass('body-hidden');
     });

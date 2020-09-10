@@ -13028,3 +13028,8 @@ h3, .h3 {
     margin-top: 40px;
   }
 }
+@media (max-width: 568px) {
+  .product-info__aside-text, .product-info__cont {
+    display: none;
+  }
+}

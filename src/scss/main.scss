@@ -48,3 +48,10 @@
 @import "blocks/personal-office";
 
 @import "page/page-subscription";
+
+
+@media (max-width: 568px) {
+    .product-info__aside-text,  .product-info__cont {
+        display: none;
+    }
+}
